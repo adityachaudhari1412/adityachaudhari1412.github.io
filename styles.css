@@ -12,6 +12,14 @@ header {
     text-align: center;
 }
 
+header img.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 1rem;
+}
+
 nav {
     background: #555;
     color: #fff;
@@ -32,6 +40,23 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    background-color: #777;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #333;
+}
+
+.social-links {
+    margin-top: 1rem;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.5rem;
 }
 
 main {
